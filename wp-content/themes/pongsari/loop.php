@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 // this code for displaying the cutom post (Please remove the comment-mark blow to activate the code)
 /*
 query_posts(array('post_type'=>array('post','marketing','computer','name_of_the_post_type','name_of_the_post_type')));
