@@ -39,8 +39,8 @@ code { font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospa
 -------------------------------------------------------------- */
 
 /* Main global 'theme' and typographic styles */
-body { background: transparent url(images/bg_grid.png) repeat 0 0; }
-body, input, textarea {	color: #666; font-size: 12px; line-height: 18px;}
+/*body { background: transparent url(images/bg_grid.png) repeat 0 0; }*/
+body, input, textarea {	color: #666; line-height: 18px;}
 hr {	background-color: #e7e7e7;	border: 0;	clear: both; height: 1px; margin-bottom: 18px; }
 
 /* Text elements */

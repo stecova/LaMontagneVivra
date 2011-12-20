@@ -1,0 +1,269 @@
+# Basics changelogs
+
+*Last modified on Saturday 15/10/2011 - 18:21 by Bruno Bichet*
+
+For Those About to Rock... Fire!
+
+## Release 0.2.8.2 - 15/10/2011
+
+1. Change version number for stylesheet call : *?v=0.2.9"* **[header.php]**
+2. Add *.left*, *.right*, *.center* and *.justify* with *text-align: xxx* property for text/img alignment **[markup.css]**
+3. Change indentations and some comments **[markup.css]**
+
+## Release 0.2.8.1 - 26/09/2011 - 12:15
+
+1. Change header comments **[author.css]**
+2. Change version number for &lt;link rel="stylesheet"&gt; **[header.php]** 
+
+## Release 0.2.8 - 25/09/2011 - 15:00
+
+1. Add *margin-top: 0* to *li ul, li ol* css rule to avoid gap **[markup.css]** 
+2. Add *.visuallyhidden* class on &lt;h1&gt; in *basics_content_nav()* **[inc/functions-display.php]**
+3. Add *posts_link_rel_next()* and *posts_link_rel_prev()* functions to print a rel "next" or "prev" microformats attributes on navivagation links between posts (maybe redondant with the meta link rel prev/next/start in head)
+4. Close &lt;input&gt; tags with /&gt; for XML parsing purpose, just in case... **[functions-comments.php]**, **[searchform.php]** 
+5. Close &lt;img&gt; tags with /&gt; for XML parsing purpose, just in case... **[content.php]**, **[functions-display.php]**
+6. Close &lt;meta&gt; and &lt;link&gt; tags with /&gt; for XML parsing purpose, just in case... **[header.php]**, **[functions-display.php]**
+6. Rewrite <!DOCTYPE HTML> with uppercase to follow the WHATWG style (and maybe more compatibility with XML parsers or whatever)
+7. Move &lt;a&gt; into &lt;h1&gt; in &lt;hgroup&gt; to validate: No &lt;a&gt; tag allowed in &lt;hgroup&gt; **[header.php]**
+8. Add *.section-title* class to h1 in main menu
+9. Add remove_more_jump_link() to remove link Jumps to the More tag **[inc/functions-filter-action.php]**
+10. Move *sidebar-1.php*, *sidebar-2.php* and *sidebar-3.php* to Child theme Beyond Basics
+11. Create *sidebar.php* with formerly *sidebar-1.php* content
+12. Add <?php get_sidebar(); ?> to... get sidebars ;-) **[index.php]**, **[search.php]**
+13. Add *basics_searchform()* to turn *searchform.php* into function **[inc/functions-filter-action.php]**
+14. Replace *get_search_form()* calls by *basics_searchform()*
+15. Shorten some comments **[inc/functions-setup.php]** 
+16. Change relative paths to load jQuery and other script: from Child theme to Parent theme. 
+
+
+## Release 0.2.7.1 - 20/09/2011 - 00:37
+
+1. Change version number for stylesheet call : *?v=0.2.7.1"* **[header.php]**
+2. Edit paths to URL of favicons in *basics_favicon()* to make it work **[inc/functions-display.php]**
+3. Rename basics_favicon() to basics_favicons() **[inc/functions-display.php]**, **[header.php]**
+4. Move **[404.php]** to Child Theme *Beyond Basics*
+5. Change case to some .txt files : CHANGELOG.txt HUMANS.txt, README.txt, LICENSE.txt
+6. Make some cosmetic changes to HUMANS.txt
+7. Add *basics_search_autofocus()* to print *autofocus* attribute to Search form when the user is in search context
+8. Edit README.txt to reflect the changes brought by the Child Theme Beyond Basics
+
+## Release 0.2.7 - 19/09/2011
+
+1. Minor changes in comments **[style.css]** **[markup.css]**
+2. Change hook (*widgets_init* instead of *init*) for registering *basics_widgets_init()* function **[functions.php]**
+3. Wrap some basics functions into *basics_setup()* triggered by *after_setup_theme hook* **[functions.php]**
+4. Remove one level of indentation after each *if ( ! function_exists():* **[functions.php]**
+5. Split **[functions.php]** file in several files sets in */inc/* folder for easy maintenance and evolution
+6. Add condition *is_404()* to *basics_description()* to avoid "Notice" when *$post* doesn't exist (404 = no post) **[inc/functions-display.php]**
+7. Change function *the_widget( 'WP_Widget_Archives', 'dropdown=1&count=0'* to avoid Notice if *&count=0* is missing **[content-404.php]**
+8. Add condition on function *basics_description()* when *$wp_query->found_posts* is empty (no result found) **[inc/functions-display.php]**
+9. Move *$content_width* into *basics_setup()* function **[inc/functions-setup.php]**
+10. Add link to comments and display number of comments to the function *basics_posted_in()* **[inc/functions-display.php]**
+11. Remove *div#logo* **[header.php]**
+12. Wrap &lt;h1&gt; in &lt;hgroup&gt; with *a#site-title* to replace *div#logo* **[header.php]**
+13. Change some CSS to match the two changes above **[author.css]**
+14. Update jQuery lib to version 1.6.4 */js/libs/*
+15. Change paths to jQuery lib to reflect change above **[footer.php]**
+16. Empty *author.css* to keep the theme "blank" (*author.css* should be reused in a Child theme) and change comment in **[style.css]**
+17. Update **[readme.txt]** to reflect the changes.
+18. Cosmetic changes in comments layout **[style.css]**
+19. Add *basics_favicon()* function to print links for favicons. Make the customization in a Child theme easier **[functions-display.php]**, **[header.php]**
+20. Remove indentation in &lt;head&gt tag **[header.php]**
+21. Remove final trailing slash in *link rel="pingback"* tag **[header.php]**
+22. Remove *post-formats* and *featured-images* tags **[style.css]**
+23. Add *basics_jquery()* function to load jQuery properly with *wp_enqueue_script()* **[inc/functions-filter-action.php]**
+24. Add *basics_scripts()* function to load the other scripts or librarie in a customizable way for authors **[inc/functions-filter-action.php]**
+25. Add HTML comment to explain where authors could manage jQuery and other scripts **[footer.php]**
+26. Add *basics_i_love_wordpress()* function to display mini logo instead of hard printing it **[footer.php]**
+27. Remove *.visuallyhidden* classes **[footer.php]**, **[header.php]**, **[inc/functions-display.php]**, **[searchform.php]**
+28. Change *home_url( '/' )* to *bloginfo( 'name' )* in &lt;label&gt; tag **[searchform.php]**
+29. Update the *.po* file for french translation
+30. Move of **[content-404.php]**, **[content-news.php]** and **[home.php]** files in Child theme *Beyond Basics* to make Basics more... basic!
+31. Add *edit_post_link()* in *basics_posted_in()* allowing authors to edit their posts **[inc/functions-display.php]**
+32. Change message when *! comments_open() && is_page()* with a *sprintf* for easier translation for the contact page **[comments.php]**
+
+## Release 0.2.6 - 02/09/2011
+
+1. Change version number for stylesheet call : *?v=0.2.6"* **[header.php]**
+2. Change HTML markup to match changes in H5BP 2.0 **[header.php]** **[footer.php]**
+3. Change **[reset.css ]** and **[tool.css]** to match changes in H5BP 2.0
+4. Minor change on comments **[author.css]**
+5. Update */js/libs* for jQuery and Modernizr (*DD_belatedpng* is always here for compatibility purposes)
+6. Prevent shortcode to appear "as is" in the meta description in *basics_description()* **[functions.php]** Thanks to Thomas Patin (http://tom-web.fr)
+7. Turn *margin-left: 0* into *padding-left: 0* **[author.css]**
+8. Change *line-height* value in **[reset.css line 11]** : old: 1.231 - new : 1.5
+9. Rename *reset.css* to *normalize.css* and change *@import reset.css* to *normalize.css* **[markup.css]**
+10. Remove *font-size: 100%* in *markup.css* (already set in *normalize.css*)
+11. *font-family*, *font-size*, *line-height* and *color* property are now set in **[css/normalize.css]** only, instead of beeing set twice in *markup.css*
+12. Remove conditional comments for IE wrapping the *meta http-equiv="X-UA-Compatible"*
+13. Define variables *$aria_req* and *$post_id* in *basics_respond()* **[functions.php]**
+14. Remove useless *$new_defaults* variable in *comment_form()* call **[comments.php]**
+15. Put together script calls within conditionnal comments for lt IE 7 **[footer.php]**
+
+## Release 0.2.5 - 24/06/2011
+
+1. Add CSS rules *#widget-area-4 { clear: left; }*. Keep this Widget area below the two sidebars (which are floating)
+2. Add some specifics rules for *.ie6* and *ie7* to display item menu top inline **[author.css]**  
+3. Turn *text-decoration: none* into *text-decoration: underline* to make the links more visible **[markup.css]**
+4. Add *meta description* for author, tag and category in *basics_descrition()* function **[functions.php]**
+5. Add support for &lt;iframe&gt; in the Wysiwyg editor to switch easily between HTML and Visual mode **[functions.php]**
+6. (Commented for now) Disable the *wpautop* function in order that WordPress makes no attempt to correct the markup **[functions.php]**
+7. Remove website's slogan in title when displaying de home page in *basics_title()* **[function.php]**
+
+## Release 0.2.4.1 - 24/05/2011 14:30
+
+1. Change *screenshot.png* to match WordPress Theme Repositery requirements
+
+## Release 0.2.4 - 24/05/2011 14:00
+
+1. Change theme URI : *http://basics.css4design.com* to *http://wp4design.com* **[style.css]**
+2. First level of &lt;li&gt;'s within *.site-navigation* doesn't need width **[author.css]**
+3. Change credit links in footer: remove link's author and modify theme uri link
+4. Change link appearence when clicked in *.site-navigation* **[author.css]**
+
+## Release 0.2.3 - 24/05/2011 02:15
+
+1. Turn *bloginfo( 'template_directory' )* into *get_stylesheet_directory_uri()* or *get_template_directory_uri()* to match WordPress Theme repositery requirements **[header.php], **[footer.php]**
+2. Turn *bloginfo( 'stylesheet_url' )* into *echo echo get_stylesheet_uri()*
+3. Add theme version (ex. *?v=0.2.3*) after stylesheet uri instead *?v=2* **[header.php]**
+4. decomment *width: 10em* to activate dropdown menu in main menu
+
+## Release 0.2.2.1
+
+1. Minor changes in strings **[footer.php]**
+
+## Release 0.2.2 - 23/05/2011
+
+1. Change ID *#sidebars* to *#sidebar* **[index.php], **[search.php], **[home.php], **[404.php]**
+2. Change ID *#sidebars* to *#sidebar* to match changes above **[author.css]**
+3. Add *margin-bottom* to &lt;address&gt; **[markup.css]**
+4. Remove 4 *Widgets Area Ready* (there was too many W.A.R. in the world) 
+5. Reorganize W.A.R. in templates for (a little more) logical purposes **[almost all files]**
+6. Rename files: **[sidebar-home.php]** to *sidebar-1.php*; **[sidebar-one.php]** to *sidebar-1.php*; **[sidebar-two.php]** to *sidebar-2.php*
+7. Rename *#sidebar-0*, *#sidebar-1*, *#sidebar-2* for *#sidebar-1*, *#sidebar-2*, *#sidebar-3* **[sidebar-1.php], **[sidebar-2.php, **[sidebar-3.php]**
+8. Change includes to reflect changes above **[search.php]**, **[index.php]**, **[home.php]**, **[404.php]**.
+
+## Release 0.2.1 - 21/05/2011 15:00
+
+1. Modify comments in HTML code to reflect change since version 0.2 **[home.php]**
+2. Display last changes first in *changelog.txt*
+3. Remove ascii picture in comments in each file
+4. Remove *Google Analytics* script to match WordPress themes repositery's requirements. Use a plugin like *general-header footer* instead **[footer.php]**
+5. Change structure for sidebar: it's now less tricky to insert contents above the sidebars. I removed the primary &lt;div&gt; in **[sidebar-one.php], **[sidebar-two.php]** **[home.php]** to put it in the **[index.php], **[search.php], **[home.php], **[404.php]**
+6. Remove search form from *#site-navigation* to *#sidebars* **[header.php], **[index.php], **[search.php], **[home.php], **[404.php]**
+7. Remove *.visuallyhidden* class from submit button **[searchform.php]**
+8. Add support for dropdown items in the main menu (some rules commented for personnal conveniences) **[author.css]** 
+9. Add &lt;h1&gt; *section-title* in comment area **[comments.php]**
+10. Add a nocomment paragraph when there's no comment in page context **[comments.php]**
+11. Add some presentation css to image alignments **[markup.css]**
+
+## Release 0.2 - 17/05/2011
+
+1. Add &lt;section&gt; element to *comments_template()* **[index.php]**
+2. Add &lt;section&gt; element to the second loop **[home.php]**
+3. Turn &lt;section&gt; into &lt;aside&gt; **[sidebar-home.php]** **[sidebar-one.php]** **[sidebar-two.php]**
+4. Turn some &lt;div&gt; into &lt;section&gt; for semantic purposes (hard to anticipate further content, but I try, i try...) **[sidebar-home.php]** **[sidebar-one.php]** **[sidebar-two.php]**
+5. Make some changes to Widgetable Areas to reflect changes above: turn &lt;aside&gt; into &lt;div&gt; and move &lt;h1&gt; to &lt;h2&gt; because each new &lt;section&gt; should have its own &lt;h1&gt; element (you can hide it from user using *.visuallyhidden* class) **[functions.php]**
+6. Turn &lt;h2 id="comments-title">` into &lt;h1 *id="comments-title">* to match changes above **[comments.php]**
+7. Add *rel="nofollow"* on *continue reading* link in *basics_continue_reading_link()* and *basics_posted_in()* as an attempt of *Pagerank Sculpting* **[functions.php]**
+8. Some cosmetics changes in **[functions.php]** for legibility purposes.
+9. Add function *basics_section_heading()* to display *section headings* within &lt;hgroup&gt; regarding the context. Thanks to @Kusanar @BoiteAWeb @ScreenFeedFr @piouPiouM for helping o/
+10. The *basics_section_heading()* isn't fired when displaying a *Post*, a *Page*, an *Attachment* or when the content is *paged* **[index.php]**
+11. Add &lt;h1&gt; under &lt;aside&gt; element to march HTML 5 Outline (if you don't need it, put a *.visuallyhidden* class on it) **[sidebar-home.php],  **[sidebar-one.php],  **[sidebar-two.php]**
+12. Change *section heading* string when displaying *date archives* or *search results* **[functions.php], **[search.php]**
+13. Remove &lt;p&gt; in *category description* or *tag description* when displaying in *section headings* **[functions.php]**
+14. Add support for removing &lt;p&gt; in excerpt, just in case (commented) **[functions.php]**
+15. Add *author description* and *avatar* when displaying *author's posts* **[functions.php], **[index.php]**
+16. Add *wptexturize()* to *category description*, *tag description* and *author description* to avoid alert when displaying -- instead of *&emdash;* for example.
+17. The default category for posts displaying under the *sticky* post in home is no longer the 'news' *category_name*. Instead, I use now the *Uncategorized* (ID=1) category for genericity. Don't forget to rename it to match your taxonomy.
+18. Add a *README.txt* to give some explanations.
+
+## Release 0.1.9 - 14/05/2011
+	
+1. Add generic markup style **[markup.css]**
+2. Turn value *Search in* into *ok* **[searchform.php]**
+3. Set a (almost) complete basic html markup **[markup.css]**
+4. The *featured post* in homepage is no longer the last post published in the *featured* category. Instead, its the last *Sticky post*
+5. Add ID's *#site-title* and *#site-description* to &lt;h1&gt; and &lt;h2&gt; in &lt;hgroup&gt; **[header.php]**
+6. Add some structure to *markup.css*. Remove duplicate CSS rules between *reset.css* and *markup.css* **[markup.css]**
+7. Add Sample of *Media Queries* to fit screen under 990px width. **[author.css]** 
+8. Add support for non-duplicate posts when displaying a *sticky post* witch could appears later in a second loop **[home.php]**
+
+## Release 0.1.8 - 12/05/2011
+
+1. Add thumbnail of different sizes regarding the context **[content.php], **[content-news.php]**
+2. Display placeholder image when thumbnail is missing **[content.php], **[content-news.php]**
+3. Make some changes to *author.css* to give the front of Basics a whirl
+4. Turn *input type="text"* into *type="search"* **[searchform.php]**
+5. Add *utofocus* to *input type="search"* **[searchform.php]**
+6. Add page **[search.php]** to deal more easily with results
+7. Add &lt;mark&gt; in the result page to highlight the user's request **[search.php]**
+8. Make some changes to the credit line **[footer.php]**
+
+## Release 0.1.7 - 12/05/2011 - 20h04
+
+1. Add *.container* class to *#page* **[header.php]**
+2. Add *css/grid.css*
+3. Add */* @import "css/grid.css"; */* **[style.css]**
+4. Add *add_editor_style()* **[functions.php]**
+5. Add *@import "editor-style.css"* **[style.css]**
+6. Customizing *editor-style.css* to give Basics a (simili) vertical grid for both front and WordPress WYSIWYG editor
+7. Add function *basics_body_class($classes)* **[functions.php]**
+8. Add CSS to *author.css* to improve legibility
+9. Add *&lt;section role="main"&gt;* and &lt;section role="complementary"&gt;* **[index.php], **[404.php], **[home.php], **[sidebar-home.php]**, **[sidebar-one.php]**, **[sidebar-two.php]**
+10. Add &lt;div&gt;'s above &lt;header&gt; and &lt;footer&gt; to match the global structure **[header.php], **[footer.php]**
+11. Remove link on *title* in singular context **[content.php], **[content-news.php]**
+12. Remove *.ir* class to *#site-title h1* (move to *author.css* Child theme) **[header.php]**
+12. Remove */img/logo.png* (move to */img/logo.png* in Child theme)
+
+## Release 0.1.6 - 11/05/2011
+
+1. Change some comments in **[functions.php]**
+2. Add support for custom editor style with *add_editor_style()* **[functions.php]**
+3. Change &lt;span&gt; to &lt;time&gt; with *datetime* attribute in *basics_posted_on()` to match HTML5 specifications **[function.php]**
+4. Print meta-sep *"|"* with generic *printf()* **[functions.php], **[footer.php]**
+5. Add *editor-styles.css*
+
+## Release 0.1.5 - 10/05/2011
+
+1. Add *#id="administrator* to &lt;address&gt; to validate microformat *hcard* **[footer.php]**
+2. Add *&lt;!-- &lt?php echo get_num_queries(); ?&gt; queries. &lt;?php timer_stop(1); ?&gt; seconds. --&gt;` **[footer.php]**
+3. Add &lt;div id="copyright"&gt;* **[footer.php]**	
+4. Add some comments **[functions.php]**
+
+## Release 0.1.4 - 10/05/2011
+
+1. Add microformats *hCard* to &lt;hgroup>`, &lt;h1>`, &lt;a&gt; **[header.php]**
+2. Add microformats classes *.entry-title* to &lt;h1&gt; **[content.php], **[content-404.php], **[content-news.php]**
+3. Add microformats *.vcard* *.email* .*url* *.fn* to &lt;adress&gt;`, &lt;a&gt;*, &lt;span&gt; **[footer.php]**
+4. Link to string *Contact the administrator* instead on email address **[footer.php]**
+5. Remove surplus blank lines and add some indentations
+
+## Release 0.1.3 - 09/05/2001
+
+1. Add support for all *post formats* (not only for *aside* and *gallery*) **[functions.php]**
+2. Change comments in **[home.php]**
+3. Add echo *strtolower( get_bloginfo( 'charset' ) );*
+4. Add *role="search"* to &lt;form&gt; **[searchform.php]**
+5. Add *.ir* class from HTML5 Boilerplate on site-title in order to display a logo as an image.
+6. Add alt property to logo image with *bloginfo( 'name' )*
+
+## Release Basics 0.1.2 - 07/05/2001
+
+1. Add domain translation missing in string *_e('Contact the administrator ', 'basics')* **[footer.php]**
+2. Add *.po* *.pot* *.mo* zip files for french translation (by @wolforg) in *languages* folder
+
+## Release Basics 0.1.1 - 07/05/2001
+
+1. Change link to *WordPress je thème* **[footer.php]**
+2. Add reminder *Change UA-XXXXX-X*, adding *&lt;!-- eo #credits --&gt;* **[footer.php]** 
+3. Change comment *&lt;!-- eo #sidebar-0 --&gt;* **[sidebar-home.php]**
+4. Turn *#sedondary* ID into *#sidebar-1* **[sidebar-one.php]**
+5. Turn *#tercery* ID into *#sidebar-2* **[sidebar-two.php]**
+6. Turn *#primary* into *#main* **[index.php]**, **[404.php]**, **[home.php]**
+7. Add domain translation *basics* missing **[home.php]**
+8. Add *.sidebars* within **[sidebar-1.php]**, **[sidebar-1.php]**, **[sidebar-2.php]**
+
+## Release Basics 0.1 - 06/05/2001
+
+We Salute You :-)
