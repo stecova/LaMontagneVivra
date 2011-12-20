@@ -1,9 +1,9 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 
 			<div id="content">
 
 				<h1 class="page-title"><?php
-					printf( __( 'Archives cat�gorie: %s', 'pongsari' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+					printf( __( 'Archives catégorie: %s', 'pongsari' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 				?></h1>
 				<?php
 					$category_description = category_description();
