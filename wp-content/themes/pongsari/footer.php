@@ -1,7 +1,7 @@
 		<div class="clear"></div>
 	</div><!-- #main -->
 
-	<div id="footer">
+	<footer id="footer">
 	
 <?php get_sidebar( 'footer' ); ?>
 
@@ -22,7 +22,7 @@
 			</div><!-- #site-generator -->
 
 		</div><!-- #colophon -->
-	</div><!-- #footer -->
+	</footer><!-- #footer -->
 
 </div><!-- #container -->
 
