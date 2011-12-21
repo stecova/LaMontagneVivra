@@ -1,8 +1,15 @@
 div.wpcf7 {
+	background-color:#f8f8f8;
+	border:1px solid #accb50;
 	margin: 0;
-	padding: 0;
+	padding: 20px;
 }
-
+div.wpcf7  p{
+	margin-bottom:0px !important;
+}
+div.wpcf7  textarea{
+	width:100%;
+}
 div.wpcf7-response-output {
 	margin: 2em 0.5em 1em;
 	padding: 0.2em 1em;
