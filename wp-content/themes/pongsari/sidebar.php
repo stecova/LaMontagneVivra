@@ -1,4 +1,10 @@
 		<div id="sidebar" class="widget-area">
+			<?php
+				//paypal donate
+				$paypal = new paypal_donations();
+				$atts='';
+				echo $paypal->paypal_shortcode($atts);
+			?>		
 			<ul>
 
 		<?php if ( ! dynamic_sidebar( 'primary-widget-area' ) ) : ?>

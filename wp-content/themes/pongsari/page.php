@@ -36,12 +36,12 @@
 				
 				<div id="articles">
 					<hr />
-					Les articles du <?php the_title(); ?>
+					<h2>Les articles du <?php the_title(); ?></h2>
 					<?php if( is_page( '49' ) ) : ?>
 						<ul>
 						<?php
 						global $post;
-						$args = array( 'numberposts' => 5, 'offset'=> 0, 'category' => 4 );
+						$args = array( 'numberposts' => 5, 'offset'=> 0, 'category' => 4 , 'order' => 'ASC');
 						$myposts = get_posts( $args );
 						foreach( $myposts as $post ) :	setup_postdata($post); ?>
 							<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
