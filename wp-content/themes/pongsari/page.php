@@ -8,7 +8,15 @@
 					<?php if ( is_front_page() ) { ?>
 						<h2 class="entry-title"><?php the_title(); ?></h2>
 					<?php } else { ?>
-						<h1 class="entry-title"><?php the_title(); ?></h1>
+						<h1 class="entry-title">
+						<?php if($post->post_parent) {
+							$parent_title = get_the_title($post->post_parent);
+							$parent_link = get_permalink($post->post_parent); ?>
+							<a href="<?php echo $parent_link; ?>"><?php echo $parent_title; ?></a>
+							&raquo;
+						<?php } ?>
+						<?php the_title(); ?>
+						</h1>
 					<?php } ?>
 
 					<div class="entry-content">
