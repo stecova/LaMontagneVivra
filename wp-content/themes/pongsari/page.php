@@ -6,7 +6,11 @@
 
 				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<?php if ( is_front_page() ) { ?>
-						<h2 class="entry-title"><?php the_title(); ?></h2>
+						<?php
+						#remove the_title for homepage
+						if( !is_page( '91' ) ) : ?>
+							<h2 class="entry-title"><?php the_title(); ?></h2>
+						<?php endif; ?>
 					<?php } else { ?>
 						<h1 class="entry-title">
 						<?php if($post->post_parent) {
