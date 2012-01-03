@@ -36,21 +36,20 @@
 </head>
 
 <body <?php body_class(); ?>>
-<header id="header">
-	<div id="site-title-desc">
+<header id="header" role="banner">
+	<hgroup id="site-title-desc">
 		<?php $heading_tag = ( is_home() || is_front_page() ) ? 'h1' : 'div'; ?>
 		<<?php echo $heading_tag; ?> id="site-title">
 			<span>
 				<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 			</span>
 		</<?php echo $heading_tag; ?>>
-		<div id="site-description"><?php bloginfo( 'description' ); ?></div>
-	</div>
+		<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+	</hgroup>
 	
-	<div id="access">
-			<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'pongsari' ); ?>"><?php _e( 'Skip to content', 'pongsari' ); ?></a></div>
-			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-	</div>
+	<nav id="access" role="navigation">
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+	</nav>
 	<div class="clear"></div>
 	
 </header>

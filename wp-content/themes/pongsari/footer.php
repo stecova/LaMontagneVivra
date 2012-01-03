@@ -1,7 +1,7 @@
 		<div class="clear"></div>
 	</div><!-- #main -->
 
-	<footer id="footer">
+	<footer id="footer" role="contentinfo">
 	
 <?php get_sidebar( 'footer' ); ?>
 

@@ -83,7 +83,7 @@ span.clear {display: block;}
 #site-title-desc { float: left; background:url(images/logo.png) no-repeat 0 0; padding-left:80px; width:350px;  }
 #site-title { font-size: 34px; line-height: 36px; margin: 3px 0 3px 0; }
 #site-title a { color: #333; font-weight: bold; text-decoration: none; }
-#site-description { font-style: italic; margin: 3px 0 3px 0; width: 350px; padding-left: 11px;}
+#site-description { font-style: italic; margin: 3px 0 3px 0; width: 350px; padding-left: 11px;font-size:14px;font-weight:normal;}
 
 
 /* =Menu
