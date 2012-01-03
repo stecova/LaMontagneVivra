@@ -7,13 +7,13 @@ query_posts(array('post_type'=>array('post','marketing','computer','name_of_the_
 ?>
 
 <?php if ( ! have_posts() ) : ?>
-	<div id="post-0" class="post error404 not-found">
+	<article id="post-0" class="post error404 not-found">
 		<h1 class="entry-title"><?php _e( 'Not Found', 'pongsari' ); ?></h1>
 		<div class="entry-content">
 			<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'pongsari' ); ?></p>
 			<?php get_search_form(); ?>
 		</div><!-- .entry-content -->
-	</div><!-- #post-0 -->
+	</article><!-- #post-0 -->
 <?php endif; ?>
 
 <?php 
@@ -21,27 +21,31 @@ query_posts(array('post_type'=>array('post','marketing','computer','name_of_the_
 	while ( have_posts() ) : the_post(); ?>
 
 
-		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'pongsari' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<header>
+				<h1 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'pongsari' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
-			<div class="entry-meta">
-					<span class="date"><span class="day"><?php the_time( __( 'j', 'pongsari' )); ?></span><span class="month"><?php the_time( __( 'M', 'pongsari' )); ?></span></span>
-					<?php 
-						printf( __( '<span class="meta-sep">par</span> %1$s', 'pongsari' ),
-							sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s">%3$s</a></span>',
-								get_author_posts_url( get_the_author_meta( 'ID' ) ),
-								sprintf( esc_attr__( 'Voir tous les billets de %s', 'pongsari' ), get_the_author() ),
-								get_the_author()
-							)
-						);
-					?>
+				<div class="entry-meta">
+						<time class="date" pubdate="" datetime="<?php the_time( DATE_W3C ); ?>">
+							<span class="day"><?php the_time( __( 'j', 'pongsari' )); ?></span>
+							<span class="month"><?php the_time( __( 'M', 'pongsari' )); ?></span>
+						</time>
+						<?php 
+							printf( __( '<span class="meta-sep">par</span> %1$s', 'pongsari' ),
+								sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s">%3$s</a></span>',
+									get_author_posts_url( get_the_author_meta( 'ID' ) ),
+									sprintf( esc_attr__( 'Voir tous les billets de %s', 'pongsari' ), get_the_author() ),
+									get_the_author()
+								)
+							);
+						?>
 
-			</div><!-- .entry-meta -->
-
-	<?php if ( is_archive() || is_search() ) : ?>
-			<div class="entry-summary">
-				<?php the_excerpt(); ?>
-			</div>
+				</div><!-- .entry-meta -->
+			</header>
+			<?php if ( is_archive() || is_search() ) : ?>
+					<div class="entry-summary">
+						<?php the_excerpt(); ?>
+					</div>
 	<?php else : ?>
 			<div class="entry-content">
 				<?php 
@@ -55,7 +59,7 @@ query_posts(array('post_type'=>array('post','marketing','computer','name_of_the_
 			</div>
 	<?php endif; ?>
 
-			<div class="entry-utility">
+			<footer class="entry-utility">
 				<?php if ( count( get_the_category() ) ) : ?>
 					<span class="cat-links">
 						<?php printf( __( '<span class="%1$s">Publié dans</span> %2$s', 'pongsari' ), 'entry-utility-prep entry-utility-prep-cat-links', get_the_category_list( ', ' ) ); ?>
@@ -73,8 +77,8 @@ query_posts(array('post_type'=>array('post','marketing','computer','name_of_the_
 				<?php endif; ?>
 				<span class="comments-link"><?php comments_popup_link( __( 'Laisser un commentaire', 'pongsari' ), __( '1 Commentaire', 'pongsari' ), __( '% Commentaires', 'pongsari' ) ); ?></span>
 				<?php edit_post_link( __( 'Editer', 'pongsari' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
-			</div><!-- .entry-utility -->
-		</div><!-- #post-## -->
+			</footer><!-- .entry-utility -->
+		</article><!-- #post-## -->
 
 		<?php comments_template( '', true ); ?>
 

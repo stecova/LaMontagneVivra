@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-			<div id="content">
+			<section id="content" role="main">
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<?php if ( is_front_page() ) { ?>
 						<?php
 						#remove the_title for homepage
@@ -12,15 +12,17 @@
 							<h2 class="entry-title"><?php the_title(); ?></h2>
 						<?php endif; ?>
 					<?php } else { ?>
-						<h1 class="entry-title">
-						<?php if($post->post_parent) {
-							$parent_title = get_the_title($post->post_parent);
-							$parent_link = get_permalink($post->post_parent); ?>
-							<a href="<?php echo $parent_link; ?>"><?php echo $parent_title; ?></a>
-							&raquo;
-						<?php } ?>
-						<?php the_title(); ?>
-						</h1>
+						<header>
+							<h1 class="entry-title">
+							<?php if($post->post_parent) {
+								$parent_title = get_the_title($post->post_parent);
+								$parent_link = get_permalink($post->post_parent); ?>
+								<a href="<?php echo $parent_link; ?>"><?php echo $parent_title; ?></a>
+								&raquo;
+							<?php } ?>
+							<?php the_title(); ?>
+							</h1>
+						</header>
 					<?php } ?>
 
 					<div class="entry-content">
@@ -31,7 +33,7 @@
 					
 					<span class="clear"></span>
 					
-				</div>
+				</article>
 				<!-- #post-## -->
 				
 				<div id="articles">
@@ -55,7 +57,7 @@
 
 <?php endwhile; ?>
 
-			</div><!-- #content -->
+			</section><!-- #content -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

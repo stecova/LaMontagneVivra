@@ -1,13 +1,15 @@
 <?php get_header(); ?>
 
-			<div id="content">
+			<section id="content" role="main">
 
 <?php
 	if ( have_posts() )
 		the_post();
 ?>
 
-				<h1 class="page-title author"><?php printf( __( 'Archives auteur: %s', 'pongsari' ), "<span class='vcard'><a class='url fn n' href='" . get_author_posts_url( get_the_author_meta( 'ID' ) ) . "' title='" . esc_attr( get_the_author() ) . "' rel='me'>" . get_the_author() . "</a></span>" ); ?></h1>
+				<header>
+					<h1 class="page-title author"><?php printf( __( 'Archives auteur: %s', 'pongsari' ), "<span class='vcard'><a class='url fn n' href='" . get_author_posts_url( get_the_author_meta( 'ID' ) ) . "' title='" . esc_attr( get_the_author() ) . "' rel='me'>" . get_the_author() . "</a></span>" ); ?></h1>
+				</header
 
 <?php
 
@@ -28,7 +30,7 @@ if ( get_the_author_meta( 'description' ) ) : ?>
 
 	get_template_part( 'loop', 'author' );
 ?>
-			</div><!-- #content -->
+			</section><!-- #content -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

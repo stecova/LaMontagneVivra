@@ -5,17 +5,12 @@ Template Name: Statistiques
 ?>
 <?php get_header(); ?>
 
-			<div id="content">
+			<section id="content" role="main">
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<?php if ( is_front_page() ) { ?>
-						<h2 class="entry-title"><?php the_title(); ?></h2>
-					<?php } else { ?>
-						<h1 class="entry-title"><?php the_title(); ?></h1>
-					<?php } ?>
-
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<h1 class="entry-title"><?php the_title(); ?></h1>
 					<div class="entry-content">
 						<?php the_content(); ?>
 						<ul>
@@ -27,13 +22,13 @@ Template Name: Statistiques
 					
 					<span class="clear"></span>
 					
-				</div><!-- #post-## -->
+				</article><!-- #post-## -->
 
 				<?php comments_template( '', true ); ?>
 
 <?php endwhile; ?>
 
-			</div><!-- #content -->
+			</section><!-- #content -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
