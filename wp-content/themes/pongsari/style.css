@@ -66,8 +66,8 @@ sup, sub { height: 0; line-height: 1; position: relative; vertical-align: baseli
 sup { bottom: 1ex;}
 sub { top: .5ex; }
 input[type="text"], textarea { 	background: #FFF url(images/bg-input.png) repeat-x 0 0; border: 1px solid #EEE; /*box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1); -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1); */ padding: 7px 2px; }
-a:link { color: #839E35; }
-a:visited { color: #839E35; }
+a:link { color: #b77c00; }
+a:visited { color: #b77c00; }
 a:active, a:hover {	color: #ff4b33;	outline: none;}
 a:focus { -moz-outline-style: none; }
 .clear {clear: both;}
@@ -101,9 +101,9 @@ span.clear {display: block;}
 #access ul.children a {background: #FFF;	color: #6A6A6A;	line-height: 1em;	padding: 10px;	width: 160px;	height: auto; font-size:10px;}
 #access li:hover > a {	color:#888; background:#fff;border-top:1px solid #e9e9e9;border-left:1px solid #e9e9e9;border-right:1px solid #e9e9e9;}
 #access li:hover > a:first-child, #access li:hover > a:last-child{border-bottom:1px solid #e9e9e9;} 
-#access ul.children :hover > a {	background: #ACCB50;	color: #FFF;}
+#access ul.children :hover > a {	background: #ffa500;	color: #FFF;}
 #access ul li:hover > ul {	display:block; height:100%; }
-#access ul.children a:hover{background: #ACCB50;color:#000}
+#access ul.children a:hover{background: #ffa500;color:#000}
 /* #access ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a { color: #6A6A6A; } */
 * html #access ul li.current_page_item a, * html #access ul li.current-menu-ancestor a, * html #access ul li.current-menu-item a, * html #access ul li.current-menu-parent a, * html #access ul li a:hover { color: #fff; }
 
@@ -138,7 +138,7 @@ span.clear {display: block;}
 .page-title a:active, .page-title a:hover { color: #ff4b33;}
 #content .entry-title { color: #444; font-size: 26px; font-weight: bold; line-height: 1.3em; margin-bottom: 0;}
 .entry-title a:link, .entry-title a:visited { color: #444444;	text-decoration: none; }
-.entry-title a:active, .entry-title a:hover {	color: #839E35;}
+.entry-title a:active, .entry-title a:hover {	color: #b77c00;}
 .entry-meta { color: #888;	font-size: 12px;}
 .entry-meta abbr, .entry-utility abbr {	border: none;}
 .entry-meta abbr:hover, .entry-utility abbr:hover { border-bottom: 1px dotted #666;}
@@ -207,7 +207,7 @@ body.page .edit-link { clear: both; display: block;}
 
 .navigation { color: #888; font-size: 12px; line-height: 18px; overflow: hidden; font-weight: bold;}
 .navigation a:link, .navigation a:visited { color: #888; text-decoration: none; padding:0 10px;}
-.navigation a:active, .navigation a:hover { color:#839E35; padding:0; }
+.navigation a:active, .navigation a:hover { color:#b77c00; padding:0; }
 .nav-previous { float: left; width: 50%;}
 .nav-next {	float: right;	text-align: right;	width: 50%;}
 #nav-below {	margin: 0;}
