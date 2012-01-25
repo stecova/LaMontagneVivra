@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.3\n"
+"Project-Id-Version: WordPress 3.3.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2011-12-11 00:13:13+00:00\n"
-"PO-Revision-Date: 2011-12-14 23:47+0100\n"
-"Last-Translator: WordPress Francophone <traduction_at_wordpress-fr.net>\n"
+"POT-Creation-Date: 2012-01-03 21:15:50+00:00\n"
+"PO-Revision-Date: 2012-01-03 23:11+0100\n"
+"Last-Translator: Amaury Balmer <amaury@wordpress-fr.net>\n"
 "Language-Team: WordPress Francophone <traduction@wordpress-fr.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,23 +20,23 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Bookmarks: -1,430,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
-#: wp-includes/capabilities.php:542
-#: wp-includes/capabilities.php:562
-#: wp-includes/capabilities.php:588
+#: wp-includes/capabilities.php:547
+#: wp-includes/capabilities.php:567
+#: wp-includes/capabilities.php:593
 msgid "Use <code>WP_User->ID</code> instead."
 msgstr "Utilisez plutôt <code>WP_User->ID</code>."
 
-#: wp-includes/capabilities.php:850
+#: wp-includes/capabilities.php:855
 msgid "Usage of user levels by plugins and themes is deprecated. Use roles and capabilities instead."
 msgstr "L&rsquo;utilisation des niveaux d&rsquo;utilisateur par les extensions et thèmes est désormais interdite. Utiliser les rôles et capacités à la place."
 
-#: wp-includes/functions.wp-styles.php:28
-#: wp-includes/functions.wp-styles.php:55
-#: wp-includes/functions.wp-styles.php:83
-#: wp-includes/functions.wp-styles.php:104
-#: wp-includes/functions.wp-styles.php:135
-#: wp-includes/functions.wp-styles.php:157
-#: wp-includes/functions.wp-styles.php:181
+#: wp-includes/functions.wp-styles.php:30
+#: wp-includes/functions.wp-styles.php:57
+#: wp-includes/functions.wp-styles.php:85
+#: wp-includes/functions.wp-styles.php:106
+#: wp-includes/functions.wp-styles.php:137
+#: wp-includes/functions.wp-styles.php:159
+#: wp-includes/functions.wp-styles.php:183
 #: wp-includes/functions.wp-scripts.php:29
 #: wp-includes/functions.wp-scripts.php:56
 #: wp-includes/functions.wp-scripts.php:90
@@ -378,7 +378,7 @@ msgstr "Archives"
 #: wp-admin/edit-link-form.php:28
 #: wp-admin/includes/class-wp-posts-list-table.php:273
 #: wp-admin/includes/class-wp-links-list-table.php:82
-#: wp-admin/press-this.php:498
+#: wp-admin/press-this.php:512
 msgid "Categories"
 msgstr "Catégories"
 
@@ -1036,7 +1036,7 @@ msgstr "Aucune correspondance trouvée."
 #: wp-admin/includes/widgets.php:182
 #: wp-admin/includes/meta-boxes.php:293
 #: wp-admin/includes/meta-boxes.php:697
-#: wp-admin/press-this.php:556
+#: wp-admin/press-this.php:570
 msgid "Add"
 msgstr "Ajouter"
 
@@ -1111,7 +1111,7 @@ msgstr "Il n&rsquo;y a pas d&rsquo;autres commentaires."
 #: wp-admin/includes/dashboard.php:563
 #: wp-admin/includes/meta-boxes.php:215
 #: wp-admin/includes/meta-boxes.php:216
-#: wp-admin/press-this.php:470
+#: wp-admin/press-this.php:484
 msgid "Publish"
 msgstr "Publier"
 
@@ -1129,7 +1129,7 @@ msgstr "Mettre à relire"
 #: wp-includes/script-loader.php:327
 #: wp-admin/includes/dashboard.php:560
 #: wp-admin/includes/meta-boxes.php:31
-#: wp-admin/press-this.php:468
+#: wp-admin/press-this.php:482
 msgid "Save Draft"
 msgstr "Enregistrer brouillon"
 
@@ -1796,52 +1796,52 @@ msgstr "&laquo; Retour"
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &raquo; Erreur"
 
-#: wp-includes/functions.php:3312
+#: wp-includes/functions.php:3321
 #: wp-includes/admin-bar.php:572
 #: wp-admin/widgets.php:35
 msgid "Widgets"
 msgstr "Widgets"
 
-#: wp-includes/functions.php:3458
-#: wp-includes/functions.php:3498
+#: wp-includes/functions.php:3467
+#: wp-includes/functions.php:3507
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s est <strong>déprécié</strong> depuis la version %2$s! Utilisez %3$s à la place."
 
-#: wp-includes/functions.php:3460
-#: wp-includes/functions.php:3500
+#: wp-includes/functions.php:3469
+#: wp-includes/functions.php:3509
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s est <strong>déprécié</strong> depuis la version %2$s, aucune alternative n&rsquo;est disponible."
 
-#: wp-includes/functions.php:3542
+#: wp-includes/functions.php:3551
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s est appelé avec un argument qui est <strong>déprécié</strong> depuis la version %2$s&nbsp;! %3$s"
 
-#: wp-includes/functions.php:3544
+#: wp-includes/functions.php:3553
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s est appelé avec un argument qui est <strong>déprécié</strong> depuis la version %2$s, aucune alternative n&rsquo;est disponible."
 
-#: wp-includes/functions.php:3576
+#: wp-includes/functions.php:3585
 msgid "(This message was added in version %s.)"
 msgstr "(Ce message a été ajouté à la version %s.)"
 
-#: wp-includes/functions.php:3577
+#: wp-includes/functions.php:3586
 msgid "Please see <a href=\"http://codex.wordpress.org/Debugging_in_WordPress\">Debugging in WordPress</a> for more information."
 msgstr "Veuillez consulter la page <a href=\"http://codex.wordpress.org/Debugging_in_WordPress\">Debugger dans WordPress (EN)</a> pour plus d&rsquo;informations."
 
-#: wp-includes/functions.php:3578
+#: wp-includes/functions.php:3587
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s est appelée de la mauvaise manière. %2$s %3$s"
 
-#: wp-includes/functions.php:4289
+#: wp-includes/functions.php:4298
 msgid "Select a city"
 msgstr "Sélectionnez une ville"
 
-#: wp-includes/functions.php:4334
-#: wp-includes/functions.php:4338
+#: wp-includes/functions.php:4343
+#: wp-includes/functions.php:4347
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:4342
+#: wp-includes/functions.php:4351
 msgid "Manual Offsets"
 msgstr "Décalages manuels"
 
@@ -2019,7 +2019,7 @@ msgid "Add or remove tags"
 msgstr "Ajouter ou retirer des mots-clefs"
 
 #: wp-includes/taxonomy.php:415
-#: wp-admin/press-this.php:561
+#: wp-admin/press-this.php:575
 msgid "Choose from the most used tags"
 msgstr "Choisir parmi les mots-clefs les plus utilisés"
 
@@ -2356,8 +2356,8 @@ msgstr "Nuage de mots-clefs"
 #: wp-includes/default-widgets.php:1006
 #: wp-admin/includes/dashboard.php:550
 #: wp-admin/includes/class-wp-posts-list-table.php:276
-#: wp-admin/press-this.php:548
-#: wp-admin/press-this.php:552
+#: wp-admin/press-this.php:562
+#: wp-admin/press-this.php:566
 msgid "Tags"
 msgstr "Mots-clefs"
 
@@ -2893,7 +2893,7 @@ msgid "Add New Page"
 msgstr "Ajouter une nouvelle page"
 
 #: wp-includes/post.php:1188
-#: wp-admin/press-this.php:583
+#: wp-admin/press-this.php:597
 msgid "Edit Post"
 msgstr "Modifier l&rsquo;article"
 
@@ -3013,7 +3013,7 @@ msgstr "Vous n&rsquo;avez pas l&rsquo;autorisation de prévisualiser les brouill
 
 #: wp-includes/post.php:5129
 #: wp-admin/includes/class-wp-posts-list-table.php:1006
-#: wp-admin/press-this.php:485
+#: wp-admin/press-this.php:499
 msgctxt "Post format"
 msgid "Standard"
 msgstr "Par défaut"
@@ -3181,7 +3181,7 @@ msgstr "Saisissez l&rsquo;adresse de destination"
 #: wp-admin/includes/nav-menu.php:129
 #: wp-admin/includes/nav-menu.php:550
 #: wp-admin/includes/class-wp-links-list-table.php:81
-#: wp-admin/press-this.php:644
+#: wp-admin/press-this.php:658
 msgid "URL"
 msgstr "Adresse web"
 
@@ -5573,7 +5573,7 @@ msgstr "Citation"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:258
 #: wp-admin/press-this.php:160
-#: wp-admin/press-this.php:650
+#: wp-admin/press-this.php:664
 msgid "Insert Image"
 msgstr "Insérer une image"
 
@@ -6418,7 +6418,7 @@ msgstr "Ajouter"
 #: wp-admin/edit-comments.php:158
 #: wp-admin/edit.php:226
 #: wp-admin/upload.php:181
-#: wp-admin/users.php:402
+#: wp-admin/users.php:403
 #: wp-admin/plugins.php:398
 #: wp-admin/edit-tags.php:268
 msgid "Search results for &#8220;%s&#8221;"
@@ -6446,7 +6446,7 @@ msgstr "Chercher un lien"
 #: wp-admin/edit.php:22
 #: wp-admin/post-new.php:40
 #: wp-admin/users.php:13
-#: wp-admin/users.php:111
+#: wp-admin/users.php:112
 #: wp-admin/includes/bookmark.php:30
 #: wp-admin/press-this.php:17
 #: wp-admin/widgets.php:16
@@ -6823,7 +6823,7 @@ msgstr "Exemple&nbsp;: <code>http://www.wordpress-fr.net/</code> &#8212; Et n&rs
 #: wp-admin/includes/class-wp-terms-list-table.php:101
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:144
 #: wp-admin/press-this.php:146
-#: wp-admin/press-this.php:647
+#: wp-admin/press-this.php:661
 msgid "Description"
 msgstr "Description"
 
@@ -8037,7 +8037,7 @@ msgstr "Outils"
 #: wp-admin/options-writing.php:128
 #: wp-admin/includes/dashboard.php:509
 #: wp-admin/press-this.php:302
-#: wp-admin/press-this.php:464
+#: wp-admin/press-this.php:478
 msgid "Press This"
 msgstr "Publier un article"
 
@@ -9456,136 +9456,136 @@ msgstr "Vous ne pouvez pas modifier cet utilisateur."
 msgid "You can&#8217;t give users that role."
 msgstr "Vous ne pouvez pas donner ce rôle aux utilisateurs."
 
-#: wp-admin/users.php:124
-#: wp-admin/users.php:171
+#: wp-admin/users.php:125
+#: wp-admin/users.php:172
 msgid "User deletion is not allowed from this screen."
 msgstr "La suppression d&rsquo;un utilisateur n&rsquo;est pas autorisée depuis cet écran."
 
-#: wp-admin/users.php:134
-#: wp-admin/users.php:181
+#: wp-admin/users.php:135
+#: wp-admin/users.php:182
 msgid "You can&#8217;t delete users."
 msgstr "Vous ne pouvez pas supprimer d&rsquo;utilisateurs."
 
-#: wp-admin/users.php:144
+#: wp-admin/users.php:145
 msgid "You can&#8217;t delete that user."
 msgstr "Vous ne pouvez pas supprimer cet utilisateur."
 
-#: wp-admin/users.php:196
+#: wp-admin/users.php:197
 msgid "Delete Users"
 msgstr "Supprimer des utilisateurs"
 
-#: wp-admin/users.php:197
+#: wp-admin/users.php:198
 msgid "You have specified this user for deletion:"
 msgid_plural "You have specified these users for deletion:"
 msgstr[0] "Vous avez choisi de supprimer cet utilisateur&nbsp;:"
 msgstr[1] "Vous avez choisi de supprimer ces utilisateurs&nbsp;:"
 
-#: wp-admin/users.php:205
+#: wp-admin/users.php:206
 msgid "ID #%1s: %2s <strong>The current user will not be deleted.</strong>"
 msgstr "ID n°%1s&nbsp;: %2s <strong>L&rsquo;utilisateur actuel ne sera pas supprimé.</strong>"
 
-#: wp-admin/users.php:207
-#: wp-admin/users.php:310
+#: wp-admin/users.php:208
+#: wp-admin/users.php:311
 msgid "ID #%1s: %2s"
 msgstr "ID n°%1s&nbsp;: %2s"
 
-#: wp-admin/users.php:214
+#: wp-admin/users.php:215
 msgid "What should be done with posts and links owned by this user?"
 msgid_plural "What should be done with posts and links owned by these users?"
 msgstr[0] "Que voulez-vous faire des articles et liens de cet utilisateur&nbsp;?"
 msgstr[1] "Que voulez-vous faire des articles et liens de ces utilisateurs&nbsp;?"
 
-#: wp-admin/users.php:217
+#: wp-admin/users.php:218
 msgid "Delete all posts and links."
 msgstr "Supprimer tous les articles et les liens."
 
-#: wp-admin/users.php:219
+#: wp-admin/users.php:220
 msgid "Attribute all posts and links to:"
 msgstr "Attribuer tous les articles et les liens à&nbsp;:"
 
-#: wp-admin/users.php:223
+#: wp-admin/users.php:224
 msgid "Confirm Deletion"
 msgstr "Confirmer la suppression"
 
-#: wp-admin/users.php:225
+#: wp-admin/users.php:226
 msgid "There are no valid users selected for deletion."
 msgstr "Aucun utilisateur valide n&rsquo;est sélectionné pour la suppression."
 
-#: wp-admin/users.php:237
-#: wp-admin/users.php:245
-#: wp-admin/users.php:274
-#: wp-admin/users.php:282
+#: wp-admin/users.php:238
+#: wp-admin/users.php:246
+#: wp-admin/users.php:275
+#: wp-admin/users.php:283
 msgid "You can&#8217;t remove users."
 msgstr "Vous ne pouvez pas supprimer ces utilisateurs."
 
-#: wp-admin/users.php:297
+#: wp-admin/users.php:298
 msgid "Remove Users from Site"
 msgstr "Supprimer des utilisateurs de ce site"
 
-#: wp-admin/users.php:298
+#: wp-admin/users.php:299
 msgid "You have specified these users for removal:"
 msgstr "Vous avez choisi de supprimer ces utilisateurs&nbsp;:"
 
-#: wp-admin/users.php:306
+#: wp-admin/users.php:307
 msgid "ID #%1s: %2s <strong>The current user will not be removed.</strong>"
 msgstr "ID n°%1s&nbsp;: %2s <strong>l&rsquo;utilisateur actuel ne sera pas supprimé.</strong>"
 
-#: wp-admin/users.php:308
+#: wp-admin/users.php:309
 msgid "ID #%1s: %2s <strong>You don't have permission to remove this user.</strong>"
 msgstr "ID n°%1s: %2s <strong>vous n&rsquo;avez pas l&rsquo;autorisation de supprimer cet utilisateur.</strong>"
 
-#: wp-admin/users.php:317
+#: wp-admin/users.php:318
 msgid "Confirm Removal"
 msgstr "Confirmer la suppression"
 
-#: wp-admin/users.php:319
+#: wp-admin/users.php:320
 msgid "There are no valid users selected for removal."
 msgstr "Aucun utilisateur valide n&rsquo;est sélectionné pour la suppression."
 
-#: wp-admin/users.php:348
+#: wp-admin/users.php:349
 msgid "%s user deleted"
 msgid_plural "%s users deleted"
 msgstr[0] "%s utilisateur supprimé"
 msgstr[1] "%s utilisateurs supprimés"
 
-#: wp-admin/users.php:351
+#: wp-admin/users.php:352
 msgid "New user created."
 msgstr "Le nouvel utilisateur a été créé."
 
-#: wp-admin/users.php:354
+#: wp-admin/users.php:355
 msgid "Changed roles."
 msgstr "Rôles modifiés."
 
-#: wp-admin/users.php:357
+#: wp-admin/users.php:358
 msgid "The current user&#8217;s role must have user editing capabilities."
 msgstr "L&rsquo;utilisateur courant doit avoir un niveau lui permettant de modifier les utilisateurs."
 
-#: wp-admin/users.php:358
+#: wp-admin/users.php:359
 msgid "Other user roles have been changed."
 msgstr "Les rôles des autres utilisateurs ont été modifiés."
 
-#: wp-admin/users.php:361
+#: wp-admin/users.php:362
 msgid "You can&#8217;t delete the current user."
 msgstr "Vous ne pouvez pas supprimer l&rsquo;utilisateur courant."
 
-#: wp-admin/users.php:362
+#: wp-admin/users.php:363
 msgid "Other users have been deleted."
 msgstr "Les autres utilisateurs ont été supprimés."
 
-#: wp-admin/users.php:365
+#: wp-admin/users.php:366
 msgid "User removed from this site."
 msgstr "Utilisateur supprimé de ce site."
 
-#: wp-admin/users.php:368
+#: wp-admin/users.php:369
 msgid "You can't remove the current user."
 msgstr "Vous ne pouvez pas supprimer l&rsquo;utilisateur courant."
 
-#: wp-admin/users.php:369
+#: wp-admin/users.php:370
 msgid "Other users have been removed."
 msgstr "Les autres utilisateurs ont été supprimés."
 
 # contexte
-#: wp-admin/users.php:396
+#: wp-admin/users.php:397
 #: wp-admin/user-edit.php:186
 #: wp-admin/menu.php:176
 #: wp-admin/menu.php:178
@@ -9593,13 +9593,13 @@ msgctxt "user"
 msgid "Add New"
 msgstr "Ajouter"
 
-#: wp-admin/users.php:398
+#: wp-admin/users.php:399
 #: wp-admin/user-edit.php:188
 msgctxt "user"
 msgid "Add Existing"
 msgstr "Ajouter un utilisateur existant"
 
-#: wp-admin/users.php:409
+#: wp-admin/users.php:410
 #: wp-admin/includes/dashboard.php:468
 msgid "Search Users"
 msgstr "Chercher un utilisateur"
@@ -9978,17 +9978,17 @@ msgid "Installation Failed"
 msgstr "Échec de l&rsquo;installation"
 
 #: wp-admin/update-core.php:385
-#: wp-admin/includes/update-core.php:555
+#: wp-admin/includes/update-core.php:626
 msgid "WordPress updated successfully"
 msgstr "WordPress a bien été mis à jour"
 
 #: wp-admin/update-core.php:386
-#: wp-admin/includes/update-core.php:556
+#: wp-admin/includes/update-core.php:627
 msgid "Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href=\"%s\">here</a>."
 msgstr "Bienvenue dans WordPress %1$s. Vous allez être redirigé vers l&rsquo;écran À propos de WordPress. Si ce n&rsquo;est pas le cas, cliquez <a href=\"%s\">ici</a>."
 
 #: wp-admin/update-core.php:387
-#: wp-admin/includes/update-core.php:557
+#: wp-admin/includes/update-core.php:628
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Bienvenu dans WordPress %1$s. <a href=\"%2$s\">En savoir plus</a>."
 
@@ -10180,236 +10180,239 @@ msgid "Don&#8217;t you wish all software came with these freedoms? So do we! For
 msgstr "Ne préféreriez-vous pas que tous vos logiciels vous donnent autant de liberté&nbsp;? Nous aussi&nbsp;! Pour obtenir plus d&rsquo;information, rendez-vous sur le site de la <a href=\"http://www.fsf.org/\">Free Software Foundation</a>, ou en français, ceux de l&rsquo;<a href=\"http://www.april.org/\">April</a> et l&rsquo;<a href=\"http://aful.org/\">Aful</a>."
 
 #: wp-admin/about.php:37
-msgid "Easier Uploading"
-msgstr "Mises en ligne plus faciles"
-
-#: wp-admin/about.php:45
-msgid "File Type Detection"
-msgstr "Détection du type de fichiers"
-
-#: wp-admin/about.php:46
-msgid "We&#8217;ve streamlined things! Instead of needing to click on a specific upload icon based on your file type, now there&#8217;s just one. Once your file is uploaded, the appropriate fields will be displayed for entering information based on the file type."
-msgstr "Nous avons tout simplifié ! Au lieu de devoir cliquer sur une icône spécifique d&rsquo;envoi de fichier selon le type de fichier, il n&rsquo;y a plus qu&rsquo;une icône. Une fois votre fichier en ligne, les champs appropriés seront affichés afin que vous puissiez saisir les informations sur le type du fichier."
-
-#: wp-admin/about.php:48
-msgid "Drag-and-Drop Media Uploader"
-msgstr "Outil de mise en ligne par glisser/déposer"
-
-#: wp-admin/about.php:49
-msgid "Adding photos or other files to posts and pages just got easier. Drag files from your desktop and drop them into the uploader. Add one file at a time, or many at once."
-msgstr "Ajouter des photos ou d&rsquo;autres fichiers à vos articles et pages devient vraiment simple. Glissez vos fichiers depuis votre ordinateur et déposez-les dans l&rsquo;outil de mise en ligne. Vous pouvez les mettre à ligne un à la fois, ou plusieurs d&rsquo;un coup."
-
-#: wp-admin/about.php:51
-msgid "More File Formats"
-msgstr "Plus de formats de fichiers"
-
-#: wp-admin/about.php:52
-msgid "We&#8217;ve added the rar and 7z file formats to the list of allowed file types in the uploader."
-msgstr "Nous avons ajouté les formats de fichier RAR et 7z à la liste des formats autorisés dans l&rsquo;outil de mise en ligne."
-
-#: wp-admin/about.php:58
-msgid "Dashboard Design"
-msgstr "Design du tableau de bord"
-
-#: wp-admin/about.php:61
-msgid "Flyout Menus"
-msgstr "Menus volants"
-
-#: wp-admin/about.php:62
-msgid "Speed up navigating the dashboard and reduce repetitive clicking with our new flyout submenus. As you hover over each main menu item in your dashboard navigation, the submenus will magically appear, providing single-click access to any dashboard screen."
-msgstr "Accélérez votre parcours du tableau de bord et réduisez le nombre de clics répétitifs grâce aux sous-menus volants. Lorsque vous survolez chacune des entrées de votre menu de navigation, les sous-menus apparaissent directement, vous offrant la possibilité d&rsquo;accéder aux autres écrans de l&rsquo;administration en un seul clic."
-
-#: wp-admin/about.php:65
-msgid "Header + Admin Bar = Toolbar"
-msgstr "En-tête + Barre d&rsquo;administration = Barre d&rsquo;outils"
-
-#: wp-admin/about.php:66
-msgid "To save space and increase efficiency, we&#8217;ve combined the admin bar and the old Dashboard header into one persistent toolbar. Hovering over the toolbar items will reveal submenus when available for quick access. "
-msgstr "Pour limiter l&rsquo;occupation de l&rsquo;espace et rendre l&rsquo;ensemble plus efficace, nous avons combiné la barre d&rsquo;administration et l&rsquo;ancien en-tête du tableau de bord, pour donner une seule barre qui reste toujours visible. En survolant ses éléments, des sous-menus apparaissent pour accélérer la navigation."
-
-#: wp-admin/about.php:73
-msgid "Responsive Design"
-msgstr "Design réactif"
-
-#: wp-admin/about.php:74
-msgid "Certain dashboard screens have been updated to look better at various sizes, including improved iPad/tablet support."
-msgstr "Certains écrans du tableau de bord ont été mise à jour afin d&rsquo;être plus agréables à l&rsquo;oeil quelle que soit la taille de l&rsquo;écran, y compris sur iPad et tablettes."
-
-#: wp-admin/about.php:78
-msgid "Help Tabs"
-msgstr "Onglets d&rsquo;aide"
-
-#: wp-admin/about.php:79
-msgid "The Help tabs located in the upper corner of the dashboard screens below your name have gotten a facelift. Help content is broken into smaller sections for easier access, with links to relevant documentation and the support forums always visible."
-msgstr "Les onglets d&rsquo;aide situés dans le coin supérieur droit des écrans du tableau de bord ont reçu une retouche cosmétique. Le contenu d&rsquo;aide est divisé en sections plus petites pour en simplifier l&rsquo;accès, avec des liens vers la documentation connexe et les forums de support toujours visible."
-
-#: wp-admin/about.php:85
-msgid "Feels Like the First Time"
-msgstr "Comme au premier jour"
-
-#: wp-admin/about.php:93
-msgid "New Feature Pointers"
-msgstr "Indicateurs de nouvelles fonctionnalités "
-
-#: wp-admin/about.php:94
-msgid "When we add new features, move navigation, or do anything else with the dashboard that might throw you for a loop when you update your WordPress site, we&#8217;ll let you know about it with new feature pointers explaining the change."
-msgstr "Lorsque nous ajoutons de nouvelles fonctionnalités, déplaçons la navigation ou faisons la moindre modification du Tableau de Bord qui pourrait vous surprendre lors d&rsquo;une mise à jour, nous vous la présentons avec des indicateurs de nouvelles fonctionnalités, qui explique la modification."
-
-#: wp-admin/about.php:96
-msgid "Post-update Changelog"
-msgstr "Liste des modifications post-mises à jour"
-
-#: wp-admin/about.php:97
-msgid "This screen! From now on when you update WordPress, you&#8217;ll be brought to this screen &mdash; also accessible any time from the W logo in the corner of the toolbar &mdash; to get an overview of what&#8217;s changed."
-msgstr "Vous êtes dessus ! À partir de maintenant, quand vous mettrez à jour WordPress, vous serez amené à cet écran &mdash; qui est également accessible à tout instant en cliquant sur le logo &laquo;&nbsp;W&nbsp;&raquo; dans le coin de la barre d&rsquo;outils &mdash; qui vous donne un aperçu de ce qui a changé."
-
-#: wp-admin/about.php:99
-msgid "Dashboard Welcome"
-msgstr "Accueil sur le tableau de bord"
-
-#: wp-admin/about.php:100
-msgid "The dashboard home screen will have a Welcome area that displays when a new WordPress installation is accessed for the first time, prompting the site owner to complete various setup tasks. Once dismissed, this welcome can be accessed via the dashboard home screen options tab."
-msgstr "La page d&rsquo;accueil du tableau de bord disposera d&rsquo;une zone de bienvenue, s&rsquo;affichant quand une nouvelle installation de WordPress est lancée pour la première, et proposant au propriétaire du site d&rsquo;accomplir certaines étapes de configuration. Une fois fermée, cette zone peut être accédée depuis l&rsquo;onglet des options d&rsquo;écran de la page d&rsquo;accueil."
-
-#: wp-admin/about.php:107
-msgid "Content Tools"
-msgstr "Outils de contenu"
-
-#: wp-admin/about.php:111
-msgid "Better Co-Editing"
-msgstr "Co-édition améliorée"
-
-#: wp-admin/about.php:113
-msgid "Have you ever gone to edit a post after someone else has finished with it, only to get an alert that tells you the other person is still editing the post? From now on, you&#8217;ll only get that alert if another person is still on the editing screen &mdash; no more time lag."
-msgstr "Ne vous êtes-vous jamais trouvé dans la situation où vous vouliez modifier un article après qu&rsquo;un autre auteur ait terminé de travailler dessus, pour vous retrouver face à une alerte vous disant que cet autre auteur était toujours en train de modifier l&rsquo;article ? Désormais, cette alerte ne s&rsquo;affichera que si elle est justifiée. Terminés les décalages."
-
-#: wp-admin/about.php:116
-msgid "Tumblr Importer"
-msgstr "Importateur Tumblr"
-
-#: wp-admin/about.php:117
-msgid "Want to import content from Tumblr to WordPress? No problem! Go to <span class=\"no-break\">Tools &rarr; Import</span> to get the new Tumblr Importer, which maps your Tumblog posts to the matching WordPress post formats. Tip: Choose a theme designed to display post formats to get the greatest benefit from the importer."
-msgstr "Vous souhaitez importer du contenu en provenance d&rsquo;un blog Tumblr ? Aucun problème ! Allez dans <span class=\"no-break\">Outils &rarr; Importer</span> pour utiliser le nouvel importateur Tumblr, qui fait correspondre les articles de votre Tumblog aux bons formats d&rsquo;article WordPress. Astuce : choisissez un thème conçu pour afficher les formats d&rsquo;articles, afin de profiter au mieux du travail de l&rsquo;importateur."
-
-#: wp-admin/about.php:120
-msgid "Widget Improvements"
-msgstr "Amélioration des widgets"
-
-#: wp-admin/about.php:121
-msgid "Changing themes often requires widget re-configuration based on the number and position of sidebars. Now if you change back to a previous theme, the widgets will automatically go back to how you had them arranged in that theme. <em>Note: if you&#8217;ve added new widgets since the switch, you&#8217;ll need to rescue them from the Inactive Widgets area.</em>"
-msgstr "Changer de thème requiert souvent de reconfigurer ses widgets, en fonction du nombre de barres latérales et de leur position. Désormais, vous pouvez revenir au thème précédent, et vos widgets retourneront là où vous les aviez placés pour ce thème. <em>Note : si vous avez ajouté de nouveaux widgets pendant la transition, vous devrez les récupérer dans la zone &laquo;&nbsp;Widgets inactifs&nbsp;&raquo;.</em>"
-
-#: wp-admin/about.php:128
-msgid "Under the Hood"
-msgstr "Sous le capot"
-
-#: wp-admin/about.php:132
-msgid "Flexible Permalinks"
-msgstr "Permaliens souples"
-
-#: wp-admin/about.php:133
-msgid "You have more freedom when choosing a post permalink structure. Skip the date information or add a category slug without a performance penalty."
-msgstr "Vous disposez de plus de possibilités lors de votre choix d&rsquo;une structure de permalien. N&rsquo;indiquez pas la date, ajoutez l&rsquo;identifiant de catégorie, tout cela sans perte de performance."
-
-#: wp-admin/about.php:136
-msgid "Post Slugs: Less Funky"
-msgstr "Identifiants d&rsquo;article : moins d&rsquo;étrangetés"
-
-#: wp-admin/about.php:137
-msgid "Funky characters in post titles (e.g. curly quotes from a word processor) will no longer result in garbled post slugs."
-msgstr "Les caractères inhabituels dans les titres d&rsquo;articles (par exemple, les guillemets en provenance d&rsquo;un éditeur de texte) ne donneront plus des identifiants d&rsquo;article incongrus."
-
-#: wp-admin/about.php:140
-msgid "jQuery and jQuery UI"
-msgstr "jQuery et jQuery UI"
-
-#: wp-admin/about.php:141
-msgid "WordPress now includes the entire jQuery UI stack and the latest version of jQuery: %s."
-msgstr "WordPress incorpore désormais la totalité du projet jQuery UI, ainsi que la dernière version de jQuery&nbsp;: la %s."
-
-#: wp-admin/about.php:148
-msgid "This handy method will tell you if a <code>WP_Query</code> object is the main WordPress query or a secondary query."
-msgstr "Cette méthode pratique vous indiquera si l&rsquo;objet <code>WP_Query</code> est la requête WordPress principale, ou une requête secondaire."
-
-#: wp-admin/about.php:151
-msgid "WP_Screen API"
-msgstr "API WP_Screen"
-
-#: wp-admin/about.php:152
-msgid "WordPress has a nice new API for working with admin screens. Create rich screens, add help documentation, adapt to screen contexts, and more."
-msgstr "WordPress dispose d&rsquo;une nouvelle API pour travailler sur les écrans d&rsquo;administration. Elle permet de créer des écrans complets, d&rsquo;ajouter de la documentation, de s&rsquo;adapter aux différentes résolutions d&rsquo;écran, et plus encore."
-
-#: wp-admin/about.php:155
-msgid "Editor API Overhaul"
-msgstr "Refonte de l&rsquo;API de l&rsquo;éditeur"
-
-#: wp-admin/about.php:156
-msgid "The new editor API automatically pulls in all the JS and CSS goodness for the editor. It even supports multiple editors on the same page."
-msgstr "La nouvelle API de l&rsquo;éditeur incorpore automatiquement toutes les bonnes informations JavaScript et CSS pour l&rsquo;éditeur. Il peut même faire fonctionner deux éditeurs sur une seule page."
-
-#: wp-admin/about.php:165
-msgid "Return to Updates"
-msgstr "Retourner aux mises à jour"
-
-#: wp-admin/about.php:165
-msgid "Return to Dashboard &rarr; Updates"
-msgstr "Retourner aux mises à jour"
-
-#: wp-admin/about.php:168
-msgid "Go to Dashboard &rarr; Home"
-msgstr "Aller sur l&rsquo;accueil"
-
-#: wp-admin/about.php:179
-msgid "Maintenance Release"
-msgid_plural "Maintenance Releases"
-msgstr[0] "Mise à jour de maintenance"
-msgstr[1] "Mises à jour de maintenance"
-
-#: wp-admin/about.php:180
-msgid "Security Release"
-msgid_plural "Security Releases"
-msgstr[0] "Mise à jour de sécurité"
-msgstr[1] "Mises à jour de sécurité"
-
-#: wp-admin/about.php:181
+#: wp-admin/about.php:189
 msgid "Maintenance and Security Release"
 msgid_plural "Maintenance and Security Releases"
 msgstr[0] "Mise à jour de maintenance et de sécurité"
 msgstr[1] "Mises à jour de maintenance et de sécurité"
 
+#. translators: 1: WordPress version number, 2: plural number of bugs. Singular
+#. security issue.
+#: wp-admin/about.php:38
+#: wp-admin/about.php:200
+msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
+msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
+msgstr[0] "<strong>Version %1$s</strong> s&rsquo;occupe d'un problème de sécurité et corrige %2$s bug."
+msgstr[1] "<strong>Version %1$s</strong> s&rsquo;occupe d'un problème de sécurité et corrige %2$s bugs."
+
+#: wp-admin/about.php:40
+#: wp-admin/about.php:207
+msgid "For more information, see <a href=\"%s\">the release notes</a>."
+msgstr "Pour plus d&rsquo;information, consultez les <a href=\"%s\">notes de publication</a>."
+
+#: wp-admin/about.php:45
+msgid "Easier Uploading"
+msgstr "Mises en ligne plus faciles"
+
+#: wp-admin/about.php:53
+msgid "File Type Detection"
+msgstr "Détection du type de fichiers"
+
+#: wp-admin/about.php:54
+msgid "We&#8217;ve streamlined things! Instead of needing to click on a specific upload icon based on your file type, now there&#8217;s just one. Once your file is uploaded, the appropriate fields will be displayed for entering information based on the file type."
+msgstr "Nous avons tout simplifié ! Au lieu de devoir cliquer sur une icône spécifique d&rsquo;envoi de fichier selon le type de fichier, il n&rsquo;y a plus qu&rsquo;une icône. Une fois votre fichier en ligne, les champs appropriés seront affichés afin que vous puissiez saisir les informations sur le type du fichier."
+
+#: wp-admin/about.php:56
+msgid "Drag-and-Drop Media Uploader"
+msgstr "Outil de mise en ligne par glisser/déposer"
+
+#: wp-admin/about.php:57
+msgid "Adding photos or other files to posts and pages just got easier. Drag files from your desktop and drop them into the uploader. Add one file at a time, or many at once."
+msgstr "Ajouter des photos ou d&rsquo;autres fichiers à vos articles et pages devient vraiment simple. Glissez vos fichiers depuis votre ordinateur et déposez-les dans l&rsquo;outil de mise en ligne. Vous pouvez les mettre à ligne un à la fois, ou plusieurs d&rsquo;un coup."
+
+#: wp-admin/about.php:59
+msgid "More File Formats"
+msgstr "Plus de formats de fichiers"
+
+#: wp-admin/about.php:60
+msgid "We&#8217;ve added the rar and 7z file formats to the list of allowed file types in the uploader."
+msgstr "Nous avons ajouté les formats de fichier RAR et 7z à la liste des formats autorisés dans l&rsquo;outil de mise en ligne."
+
+#: wp-admin/about.php:66
+msgid "Dashboard Design"
+msgstr "Design du tableau de bord"
+
+#: wp-admin/about.php:69
+msgid "Flyout Menus"
+msgstr "Menus volants"
+
+#: wp-admin/about.php:70
+msgid "Speed up navigating the dashboard and reduce repetitive clicking with our new flyout submenus. As you hover over each main menu item in your dashboard navigation, the submenus will magically appear, providing single-click access to any dashboard screen."
+msgstr "Accélérez votre parcours du tableau de bord et réduisez le nombre de clics répétitifs grâce aux sous-menus volants. Lorsque vous survolez chacune des entrées de votre menu de navigation, les sous-menus apparaissent directement, vous offrant la possibilité d&rsquo;accéder aux autres écrans de l&rsquo;administration en un seul clic."
+
+#: wp-admin/about.php:73
+msgid "Header + Admin Bar = Toolbar"
+msgstr "En-tête + Barre d&rsquo;administration = Barre d&rsquo;outils"
+
+#: wp-admin/about.php:74
+msgid "To save space and increase efficiency, we&#8217;ve combined the admin bar and the old Dashboard header into one persistent toolbar. Hovering over the toolbar items will reveal submenus when available for quick access. "
+msgstr "Pour limiter l&rsquo;occupation de l&rsquo;espace et rendre l&rsquo;ensemble plus efficace, nous avons combiné la barre d&rsquo;administration et l&rsquo;ancien en-tête du tableau de bord, pour donner une seule barre qui reste toujours visible. En survolant ses éléments, des sous-menus apparaissent pour accélérer la navigation."
+
+#: wp-admin/about.php:81
+msgid "Responsive Design"
+msgstr "Design réactif"
+
+#: wp-admin/about.php:82
+msgid "Certain dashboard screens have been updated to look better at various sizes, including improved iPad/tablet support."
+msgstr "Certains écrans du tableau de bord ont été mise à jour afin d&rsquo;être plus agréables à l&rsquo;oeil quelle que soit la taille de l&rsquo;écran, y compris sur iPad et tablettes."
+
+#: wp-admin/about.php:86
+msgid "Help Tabs"
+msgstr "Onglets d&rsquo;aide"
+
+#: wp-admin/about.php:87
+msgid "The Help tabs located in the upper corner of the dashboard screens below your name have gotten a facelift. Help content is broken into smaller sections for easier access, with links to relevant documentation and the support forums always visible."
+msgstr "Les onglets d&rsquo;aide situés dans le coin supérieur droit des écrans du tableau de bord ont reçu une retouche cosmétique. Le contenu d&rsquo;aide est divisé en sections plus petites pour en simplifier l&rsquo;accès, avec des liens vers la documentation connexe et les forums de support toujours visible."
+
+#: wp-admin/about.php:93
+msgid "Feels Like the First Time"
+msgstr "Comme au premier jour"
+
+#: wp-admin/about.php:101
+msgid "New Feature Pointers"
+msgstr "Indicateurs de nouvelles fonctionnalités "
+
+#: wp-admin/about.php:102
+msgid "When we add new features, move navigation, or do anything else with the dashboard that might throw you for a loop when you update your WordPress site, we&#8217;ll let you know about it with new feature pointers explaining the change."
+msgstr "Lorsque nous ajoutons de nouvelles fonctionnalités, déplaçons la navigation ou faisons la moindre modification du Tableau de Bord qui pourrait vous surprendre lors d&rsquo;une mise à jour, nous vous la présentons avec des indicateurs de nouvelles fonctionnalités, qui explique la modification."
+
+#: wp-admin/about.php:104
+msgid "Post-update Changelog"
+msgstr "Liste des modifications post-mises à jour"
+
+#: wp-admin/about.php:105
+msgid "This screen! From now on when you update WordPress, you&#8217;ll be brought to this screen &mdash; also accessible any time from the W logo in the corner of the toolbar &mdash; to get an overview of what&#8217;s changed."
+msgstr "Vous êtes dessus ! À partir de maintenant, quand vous mettrez à jour WordPress, vous serez amené à cet écran &mdash; qui est également accessible à tout instant en cliquant sur le logo &laquo;&nbsp;W&nbsp;&raquo; dans le coin de la barre d&rsquo;outils &mdash; qui vous donne un aperçu de ce qui a changé."
+
+#: wp-admin/about.php:107
+msgid "Dashboard Welcome"
+msgstr "Accueil sur le tableau de bord"
+
+#: wp-admin/about.php:108
+msgid "The dashboard home screen will have a Welcome area that displays when a new WordPress installation is accessed for the first time, prompting the site owner to complete various setup tasks. Once dismissed, this welcome can be accessed via the dashboard home screen options tab."
+msgstr "La page d&rsquo;accueil du tableau de bord disposera d&rsquo;une zone de bienvenue, s&rsquo;affichant quand une nouvelle installation de WordPress est lancée pour la première, et proposant au propriétaire du site d&rsquo;accomplir certaines étapes de configuration. Une fois fermée, cette zone peut être accédée depuis l&rsquo;onglet des options d&rsquo;écran de la page d&rsquo;accueil."
+
+#: wp-admin/about.php:115
+msgid "Content Tools"
+msgstr "Outils de contenu"
+
+#: wp-admin/about.php:119
+msgid "Better Co-Editing"
+msgstr "Co-édition améliorée"
+
+#: wp-admin/about.php:121
+msgid "Have you ever gone to edit a post after someone else has finished with it, only to get an alert that tells you the other person is still editing the post? From now on, you&#8217;ll only get that alert if another person is still on the editing screen &mdash; no more time lag."
+msgstr "Ne vous êtes-vous jamais trouvé dans la situation où vous vouliez modifier un article après qu&rsquo;un autre auteur ait terminé de travailler dessus, pour vous retrouver face à une alerte vous disant que cet autre auteur était toujours en train de modifier l&rsquo;article ? Désormais, cette alerte ne s&rsquo;affichera que si elle est justifiée. Terminés les décalages."
+
+#: wp-admin/about.php:124
+msgid "Tumblr Importer"
+msgstr "Importateur Tumblr"
+
+#: wp-admin/about.php:125
+msgid "Want to import content from Tumblr to WordPress? No problem! Go to <span class=\"no-break\">Tools &rarr; Import</span> to get the new Tumblr Importer, which maps your Tumblog posts to the matching WordPress post formats. Tip: Choose a theme designed to display post formats to get the greatest benefit from the importer."
+msgstr "Vous souhaitez importer du contenu en provenance d&rsquo;un blog Tumblr ? Aucun problème ! Allez dans <span class=\"no-break\">Outils &rarr; Importer</span> pour utiliser le nouvel importateur Tumblr, qui fait correspondre les articles de votre Tumblog aux bons formats d&rsquo;article WordPress. Astuce : choisissez un thème conçu pour afficher les formats d&rsquo;articles, afin de profiter au mieux du travail de l&rsquo;importateur."
+
+#: wp-admin/about.php:128
+msgid "Widget Improvements"
+msgstr "Amélioration des widgets"
+
+#: wp-admin/about.php:129
+msgid "Changing themes often requires widget re-configuration based on the number and position of sidebars. Now if you change back to a previous theme, the widgets will automatically go back to how you had them arranged in that theme. <em>Note: if you&#8217;ve added new widgets since the switch, you&#8217;ll need to rescue them from the Inactive Widgets area.</em>"
+msgstr "Changer de thème requiert souvent de reconfigurer ses widgets, en fonction du nombre de barres latérales et de leur position. Désormais, vous pouvez revenir au thème précédent, et vos widgets retourneront là où vous les aviez placés pour ce thème. <em>Note : si vous avez ajouté de nouveaux widgets pendant la transition, vous devrez les récupérer dans la zone &laquo;&nbsp;Widgets inactifs&nbsp;&raquo;.</em>"
+
+#: wp-admin/about.php:136
+msgid "Under the Hood"
+msgstr "Sous le capot"
+
+#: wp-admin/about.php:140
+msgid "Flexible Permalinks"
+msgstr "Permaliens souples"
+
+#: wp-admin/about.php:141
+msgid "You have more freedom when choosing a post permalink structure. Skip the date information or add a category slug without a performance penalty."
+msgstr "Vous disposez de plus de possibilités lors de votre choix d&rsquo;une structure de permalien. N&rsquo;indiquez pas la date, ajoutez l&rsquo;identifiant de catégorie, tout cela sans perte de performance."
+
+#: wp-admin/about.php:144
+msgid "Post Slugs: Less Funky"
+msgstr "Identifiants d&rsquo;article : moins d&rsquo;étrangetés"
+
+#: wp-admin/about.php:145
+msgid "Funky characters in post titles (e.g. curly quotes from a word processor) will no longer result in garbled post slugs."
+msgstr "Les caractères inhabituels dans les titres d&rsquo;articles (par exemple, les guillemets en provenance d&rsquo;un éditeur de texte) ne donneront plus des identifiants d&rsquo;article incongrus."
+
+#: wp-admin/about.php:148
+msgid "jQuery and jQuery UI"
+msgstr "jQuery et jQuery UI"
+
+#: wp-admin/about.php:149
+msgid "WordPress now includes the entire jQuery UI stack and the latest version of jQuery: %s."
+msgstr "WordPress incorpore désormais la totalité du projet jQuery UI, ainsi que la dernière version de jQuery&nbsp;: la %s."
+
+#: wp-admin/about.php:156
+msgid "This handy method will tell you if a <code>WP_Query</code> object is the main WordPress query or a secondary query."
+msgstr "Cette méthode pratique vous indiquera si l&rsquo;objet <code>WP_Query</code> est la requête WordPress principale, ou une requête secondaire."
+
+#: wp-admin/about.php:159
+msgid "WP_Screen API"
+msgstr "API WP_Screen"
+
+#: wp-admin/about.php:160
+msgid "WordPress has a nice new API for working with admin screens. Create rich screens, add help documentation, adapt to screen contexts, and more."
+msgstr "WordPress dispose d&rsquo;une nouvelle API pour travailler sur les écrans d&rsquo;administration. Elle permet de créer des écrans complets, d&rsquo;ajouter de la documentation, de s&rsquo;adapter aux différentes résolutions d&rsquo;écran, et plus encore."
+
+#: wp-admin/about.php:163
+msgid "Editor API Overhaul"
+msgstr "Refonte de l&rsquo;API de l&rsquo;éditeur"
+
+#: wp-admin/about.php:164
+msgid "The new editor API automatically pulls in all the JS and CSS goodness for the editor. It even supports multiple editors on the same page."
+msgstr "La nouvelle API de l&rsquo;éditeur incorpore automatiquement toutes les bonnes informations JavaScript et CSS pour l&rsquo;éditeur. Il peut même faire fonctionner deux éditeurs sur une seule page."
+
+#: wp-admin/about.php:173
+msgid "Return to Updates"
+msgstr "Retourner aux mises à jour"
+
+#: wp-admin/about.php:173
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Retourner aux mises à jour"
+
+#: wp-admin/about.php:176
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Aller sur l&rsquo;accueil"
+
+#: wp-admin/about.php:187
+msgid "Maintenance Release"
+msgid_plural "Maintenance Releases"
+msgstr[0] "Mise à jour de maintenance"
+msgstr[1] "Mises à jour de maintenance"
+
+#: wp-admin/about.php:188
+msgid "Security Release"
+msgid_plural "Security Releases"
+msgstr[0] "Mise à jour de sécurité"
+msgstr[1] "Mises à jour de sécurité"
+
 #. translators: 1: WordPress version number.
-#: wp-admin/about.php:184
+#: wp-admin/about.php:192
 msgid "<strong>Version %1$s</strong> addressed a security issue."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
 msgstr[0] "La <strong>version %1$s</strong> corrige une vulnérabilité de sécurité."
 msgstr[1] "La <strong>version %1$s</strong> corrige plusieurs vulnérabilités de sécurité."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:188
+#: wp-admin/about.php:196
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "La <strong>version %1$s</strong> corrigé %2$s bug."
 msgstr[1] "La <strong>version %1$s</strong> corrigé %2$s bugs."
 
-#. translators: 1: WordPress version number, 2: plural number of bugs. Singular
-#. security issue.
-#: wp-admin/about.php:192
-msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
-msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
-msgstr[0] "<strong>Version %1$s</strong> s&rsquo;occupe d'un problème de sécurité et corrige %2$s bug."
-msgstr[1] "<strong>Version %1$s</strong> s&rsquo;occupe d'un problème de sécurité et corrige %2$s bugs."
-
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:196
+#: wp-admin/about.php:204
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Version %1$s</strong> s&rsquo;occupe de quelques problèmes de sécurité et corrige %2$s bug."
 msgstr[1] "<strong>Version %1$s</strong> s&rsquo;occupe de quelques problèmes de sécurité et corrige %2$s bugs."
-
-#: wp-admin/about.php:199
-msgid "For more information, see <a href=\"%s\">the release notes</a>."
-msgstr "Pour plus d&rsquo;information, consultez les <a href=\"%s\">notes de publication</a>."
 
 #: wp-admin/link.php:109
 msgid "Link not found."
@@ -10606,7 +10609,7 @@ msgstr "Réinitialiser"
 #: wp-admin/includes/dashboard.php:563
 #: wp-admin/includes/meta-boxes.php:219
 #: wp-admin/includes/meta-boxes.php:220
-#: wp-admin/press-this.php:473
+#: wp-admin/press-this.php:487
 msgid "Submit for Review"
 msgstr "Soumettre à relecture"
 
@@ -12226,7 +12229,7 @@ msgstr "Impossible de récupérer le fichier depuis l&rsquo;archive."
 #: wp-admin/includes/file.php:724
 #: wp-admin/includes/file.php:783
 #: wp-admin/includes/class-wp-upgrader.php:54
-#: wp-admin/includes/update-core.php:520
+#: wp-admin/includes/update-core.php:591
 msgid "Could not create directory."
 msgstr "Impossible de créer le dossier."
 
@@ -12237,8 +12240,8 @@ msgstr "Impossible d&rsquo;extraire les fichiers depuis l&rsquo;archive."
 #: wp-admin/includes/file.php:651
 #: wp-admin/includes/file.php:737
 #: wp-admin/includes/file.php:778
-#: wp-admin/includes/update-core.php:423
-#: wp-admin/includes/update-core.php:515
+#: wp-admin/includes/update-core.php:494
+#: wp-admin/includes/update-core.php:586
 msgid "Could not copy file."
 msgstr "Impossible de copier le fichier."
 
@@ -12581,9 +12584,9 @@ msgid "Upload file and import"
 msgstr "Envoyer le fichier et l&rsquo;importer"
 
 #: wp-admin/includes/template.php:955
-#: wp-admin/press-this.php:463
-#: wp-admin/press-this.php:497
-#: wp-admin/press-this.php:547
+#: wp-admin/press-this.php:477
+#: wp-admin/press-this.php:511
+#: wp-admin/press-this.php:561
 msgid "Click to toggle"
 msgstr "Cliquer pour inverser."
 
@@ -12692,7 +12695,7 @@ msgid "Download failed."
 msgstr "Le téléchargement a échoué."
 
 #: wp-admin/includes/class-wp-upgrader.php:52
-#: wp-admin/includes/update-core.php:370
+#: wp-admin/includes/update-core.php:441
 msgid "Installing the latest version&#8230;"
 msgstr "Installation de la dernière version&#8230;"
 
@@ -13345,27 +13348,27 @@ msgstr ""
 msgid "New WordPress Site"
 msgstr "Nouveau site WordPress"
 
-#: wp-admin/includes/update-core.php:349
+#: wp-admin/includes/update-core.php:420
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "Cette mise à jour ne peut être installée car WordPress %1$s requiert une version de PHP égale ou supérieure à la %2$s, et une version de MySQL égale ou supérieure à la %3$s. Votre hébergement utilise PHP version %4$s et MySQL version %5$s."
 
-#: wp-admin/includes/update-core.php:351
+#: wp-admin/includes/update-core.php:422
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "Cette mise à jour ne peut être installée car WordPress %1$s requiert une version de PHP égale ou supérieure à la %2$s. Votre hébergement utilise PHP version %3$s."
 
-#: wp-admin/includes/update-core.php:353
+#: wp-admin/includes/update-core.php:424
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "Cette mise à jour ne peut être installée car WordPress %1$s requiert une version de MySQL égale ou supérieure à la %2$s. Votre hébergement utilise MySQL version %3$s."
 
-#: wp-admin/includes/update-core.php:356
+#: wp-admin/includes/update-core.php:427
 msgid "Verifying the unpacked files&#8230;"
 msgstr "Vérification des fichiers décompressés&#8230;"
 
-#: wp-admin/includes/update-core.php:367
+#: wp-admin/includes/update-core.php:438
 msgid "The update could not be unpacked"
 msgstr "La mise à jour ne peut pas être décompressée"
 
-#: wp-admin/includes/update-core.php:453
+#: wp-admin/includes/update-core.php:524
 msgid "Upgrading database&#8230;"
 msgstr "Mise à jour de la base de données&#8230;"
 
@@ -13479,7 +13482,7 @@ msgstr "Accueil"
 #: wp-admin/includes/nav-menu.php:878
 #: wp-admin/includes/meta-boxes.php:327
 #: wp-admin/includes/meta-boxes.php:672
-#: wp-admin/press-this.php:504
+#: wp-admin/press-this.php:518
 msgid "Most Used"
 msgstr "Les plus utilisées"
 
@@ -14117,7 +14120,7 @@ msgstr "Publier le&nbsp;: <b>%1$s</b>"
 
 #. translators: %s: add new taxonomy label
 #: wp-admin/includes/meta-boxes.php:351
-#: wp-admin/press-this.php:526
+#: wp-admin/press-this.php:540
 msgid "+ %s"
 msgstr "+ %s"
 
@@ -14509,44 +14512,44 @@ msgstr "Ajouter depuis une adresse web"
 msgid "Refresh"
 msgstr "Rafraîchir"
 
-#: wp-admin/press-this.php:483
+#: wp-admin/press-this.php:497
 msgid "Post Format:"
 msgstr "Format d&rsquo;article&nbsp;:"
 
-#: wp-admin/press-this.php:520
+#: wp-admin/press-this.php:534
 msgid "You cannot modify this Taxonomy."
 msgstr "Vous ne pouvez pas modifier cette taxinomie."
 
-#: wp-admin/press-this.php:581
+#: wp-admin/press-this.php:595
 msgid "Your post has been saved."
 msgstr "Votre article a été enregistré."
 
-#: wp-admin/press-this.php:582
+#: wp-admin/press-this.php:596
 msgid "View post"
 msgstr "Afficher l&rsquo;article"
 
-#: wp-admin/press-this.php:584
+#: wp-admin/press-this.php:598
 msgid "Close Window"
 msgstr "Fermer la fenêtre"
 
-#: wp-admin/press-this.php:594
+#: wp-admin/press-this.php:608
 msgid "Loading..."
 msgstr "Chargement..."
 
-#: wp-admin/press-this.php:614
+#: wp-admin/press-this.php:628
 msgid "via "
 msgstr "via"
 
-#: wp-admin/press-this.php:622
+#: wp-admin/press-this.php:636
 msgid "Add:"
 msgstr "Ajouter&nbsp;:"
 
-#: wp-admin/press-this.php:626
-#: wp-admin/press-this.php:627
+#: wp-admin/press-this.php:640
+#: wp-admin/press-this.php:641
 msgid "Insert an Image"
 msgstr "Insérer une image"
 
-#: wp-admin/press-this.php:631
+#: wp-admin/press-this.php:645
 msgid "Embed a Video"
 msgstr "Ajouter un vidéo"
 
@@ -16274,12 +16277,12 @@ msgid "One or more database tables are unavailable.  The database may need to be
 msgstr "Une ou plusieurs tables de votre base de données sont indisponibles. La base de données a peut-être besoin d&rsquo;être <a href=\"%s\">réparée</a>."
 
 #. Not gettexted string WP_I18N_DB_ERROR
-#: wp-includes/functions.php:3368
+#: wp-includes/functions.php:3377
 msgid "Database Error"
 msgstr "Erreur de la base de données"
 
 #. Not gettexted string WP_I18N_DB_CONNECTION_ERROR
-#: wp-includes/functions.php:3372
+#: wp-includes/functions.php:3381
 msgid "Error establishing a database connection"
 msgstr "Erreur lors de la connexion à la base de données"
 

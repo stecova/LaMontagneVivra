@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.3\n"
+"Project-Id-Version: WordPress 3.3.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2011-12-11 00:18:53+00:00\n"
-"PO-Revision-Date: 2011-12-13 21:53+0100\n"
+"POT-Creation-Date: 2012-01-03 21:20:55+00:00\n"
+"PO-Revision-Date: 2012-01-03 23:11+0100\n"
 "Last-Translator: Amaury Balmer <amaury@wordpress-fr.net>\n"
 "Language-Team: WordPress Francophone <traduction@wordpress-fr.net>\n"
 "MIME-Version: 1.0\n"
@@ -988,78 +988,78 @@ msgid "Your email address has not been updated yet. Please check your inbox at %
 msgstr "Votre adresse e-mail n&rsquo;a pas encore été mise à jour. Merci de vérifier votre boite de réception %s pour consulter l&rsquo;e-mail de confirmation."
 
 #. translators: Gigabytes
-#: wp-admin/includes/ms.php:405
+#: wp-admin/includes/ms.php:407
 msgid "GB"
 msgstr "GO"
 
 #. translators: Megabytes
-#: wp-admin/includes/ms.php:408
+#: wp-admin/includes/ms.php:410
 msgid "MB"
 msgstr "MO"
 
-#: wp-admin/includes/ms.php:411
+#: wp-admin/includes/ms.php:413
 msgid "Used: %1s%% of %2s"
 msgstr "Taux d&rsquo;utilisation&nbsp;: %1s%% sur %2s"
 
-#: wp-admin/includes/ms.php:423
+#: wp-admin/includes/ms.php:425
 msgid "Site Upload Space Quota "
 msgstr "Quota de l&rsquo;espace disque du site"
 
-#: wp-admin/includes/ms.php:424
+#: wp-admin/includes/ms.php:426
 msgid "MB (Leave blank for network default)"
 msgstr "MO (Laisser vide pour utiliser la valeur par défaut du réseau)"
 
-#: wp-admin/includes/ms.php:503
 #: wp-admin/includes/ms.php:505
+#: wp-admin/includes/ms.php:507
 msgid "You attempted to access the \"%1$s\" dashboard, but you do not currently have privileges on this site. If you believe you should be able to access the \"%1$s\" dashboard, please contact your network administrator."
 msgstr "Vous avez tenté d&rsquo;accéder au tableau de bord de &laquo;&nbsp;%1$s&nbsp;&raquo;. Cependant, vous ne disposez pas pour le moment des droits nécessaires sur ce site. Si vous pensez que vous devriez pouvoir accéder au tableau de bord de &laquo;&nbsp;%1$s&nbsp;&raquo;, contactez l&rsquo;administrateur du réseau."
 
-#: wp-admin/includes/ms.php:506
+#: wp-admin/includes/ms.php:508
 msgid "If you reached this screen by accident and meant to visit one of your own sites, here are some shortcuts to help you find your way."
 msgstr "Si vous êtes arrivé sur cet écran par accident, et que vous vouliez en fait vous rendre sur l&rsquo;un de vos sites, voici quelques raccourcis pour vous aider à trouver votre chemin."
 
-#: wp-admin/includes/ms.php:508
+#: wp-admin/includes/ms.php:510
 msgid "Your Sites"
 msgstr "Vos sites"
 
-#: wp-admin/includes/ms.php:517
+#: wp-admin/includes/ms.php:519
 msgid "Visit Dashboard"
 msgstr "Se rendre sur le Tableau de bord"
 
-#: wp-admin/includes/ms.php:517
+#: wp-admin/includes/ms.php:519
 msgid "View Site"
 msgstr "Afficher le site"
 
-#: wp-admin/includes/ms.php:544
+#: wp-admin/includes/ms.php:546
 msgid "American English"
 msgstr "Anglais (US)"
 
-#: wp-admin/includes/ms.php:548
+#: wp-admin/includes/ms.php:550
 msgid "British English"
 msgstr "Anglais (UK)"
 
-#: wp-admin/includes/ms.php:558
+#: wp-admin/includes/ms.php:560
 msgid "English"
 msgstr "Anglais"
 
-#: wp-admin/includes/ms.php:578
+#: wp-admin/includes/ms.php:580
 msgid "Warning! WordPress encrypts user cookies, but you must add the following lines to <strong>wp-config.php</strong> for it to be more secure."
 msgstr "Attention&nbsp;! WordPress encrypte les cookies utilisés par les utilisateurs, mais pour que la sécurité soit améliorée vous devez ajouter les lignes suivantes dans le fichier <strong>wp-config.php</strong>."
 
-#: wp-admin/includes/ms.php:579
+#: wp-admin/includes/ms.php:581
 msgid "Before the line <code>/* That's all, stop editing! Happy blogging. */</code> please add this code:"
 msgstr "Merci d&rsquo;ajouter ce code avant la ligne <code>/* C'est tout, ne touchez pas à ce qui suit ! Bon blogging ! */</code> :"
 
-#: wp-admin/includes/ms.php:592
+#: wp-admin/includes/ms.php:594
 msgid "Thank you for Updating! Please visit the <a href=\"%s\">Update Network</a> page to update all your sites."
 msgstr "Merci d&rsquo;avoir fait cette mise à jour&nbsp;!  Rendez-vous sur la page de <a href=\"%s\">mise à jour du réseau</a> afin de mettre tous vos sites à jour."
 
 #. translators: My sites label
-#: wp-admin/includes/ms.php:625
+#: wp-admin/includes/ms.php:627
 msgid "Primary Site"
 msgstr "Site principal"
 
-#: wp-admin/includes/ms.php:672
+#: wp-admin/includes/ms.php:674
 msgid "The <code>%1$s</code> file is deprecated. Please remove it and update your server rewrite rules to use <code>%2$s</code> instead."
 msgstr "Le fichier <code>%1$s</code> est obsolète. Veuillez l&rsquo;enlever et mettre à jour les règles de réécriture de votre serveur, afin d&rsquo;utiliser <code>%2$s</code> à la place."
 
